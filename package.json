@@ -1,0 +1,21 @@
+{
+  "name": "polywurl",
+  "version": "0.1.0",
+  "description": "polywurl is a simple helper module for assisting in creating websites with CSS framework agnostic class usage by providing a translation interface between a generic class name and the selected framework's class conventions. Currently has minimal class support for Bootstrap and Foundation.",
+  "main": "src/polywurl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/raymondcolebaugh/polywurl"
+  },
+  "keywords": [
+    "bootstrap",
+    "foundation",
+    "css",
+    "translator"
+  ],
+  "author": "Raymond Colebaugh",
+  "license": "MIT"
+}
