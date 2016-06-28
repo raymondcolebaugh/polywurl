@@ -8,16 +8,16 @@ Install via npm by executing: `npm install polywurl`
 
 ## Usage
 ```javascript
-    var polywurl = require('./src/polywurl.js');
-    var bootstrap = new polywurl("bootstrap");
-    var foundation = new polywurl("foundation");
+var polywurl = require('./src/polywurl.js');
+var bootstrap = new polywurl("bootstrap");
+var foundation = new polywurl("foundation");
 
-    console.log(bootstrap.getClass('column-large-4'));
-    // col-lg-4
-    console.log(bootstrap.getClass('button-default'));
-    // btn btn-default
-    console.log(foundation.getClass('column-large-4'));
-    // column large-4
-    console.log(foundation.getClass('button-default'));
-    //  button secondary
+console.log(bootstrap.getClass('column-large-4'));
+// col-lg-4
+console.log(bootstrap.getClass('button-default'));
+// btn btn-default
+console.log(foundation.getClass('column-large-4'));
+// column large-4
+console.log(foundation.getClass('button-default'));
+//  button secondary
 ```
